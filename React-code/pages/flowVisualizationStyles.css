@@ -1,0 +1,23 @@
+/* Import Roboto font from Google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+ /* Flow section */
+.react-flow {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+/* App nodes */
+.react-flow__node-input {
+    /* background: #fff; */
+    /* border-color: red; */
+    font-weight: 500;
+    border: 0px solid white;
+    color: "#888888";
+}
+
+.app-names {
+    box-shadow: 0px 0.880218px 4.40109px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    color: "#888888";
+}
