@@ -65,6 +65,13 @@
     "build:tailwind": "tailwind build assets/styles/index.css -o assets/styles/tailwind.css",
     "build": "next build",
     "start": "next start -p $PORT",
+    "api-list-tsc": "tsc -p tsconfig.api.json --traceResolution",
+    "api-serve": "node dist-api/server.js",
+    "api-start-dev": "nodemon dist-api/server.js",
+    "api-watch-ts": "tsc -p tsconfig.api.json --watch"
+  },
+  "scriptsNotUsed": {
+    "start": "next start -p $PORT",
     "api-build": "npm run api-build-ts",
     "api-build-ts": "tsc -p tsconfig.api.json",
     "api-list-tsc": "tsc -p tsconfig.api.json --traceResolution",
